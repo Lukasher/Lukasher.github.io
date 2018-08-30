@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400&subset=cyrillic');
+
+body {
+    font-family: "Playfair Display";
+    font-size: 14px;
+    color: #626262;
+}
+ 
+.wrapper {
+    display: block;
+    box-sizing: border-box;
+    margin: auto;
+    width: 1200px;
+}
+
+.navbar-navigation {
+    padding-top: 77px;
+    margin-bottom: 104px;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.navigation-link1:hover {
+    color: #03a9f4;
+    text-decoration: none;
+}
+
+.navigation-submenu {
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.navigation-link {
+    color: #626262;
+    text-decoration: none;
+}
+
+.main-portal-festival {
+    display: inline-block;
+    width: 420px;
+    margin-left: 149px;
+    margin-right: 29px;
+}
+
+.article-subname {
+    margin-top: 31px;
+    margin-bottom: 28px;
+    font-family: "Ubuntu";
+    text-transform: uppercase;
+    color: #b4ad9e;
+}
+
+.article-title {
+    margin-bottom: 34px;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.article-text {
+    line-height: 24px;
+}
+
+.main-portal-coffee {
+    display: inline-block;
+    width: 420px;
+    margin-left: 59px;
+    margin-right: 75px;
+}
+
+.main-portal-dream {
+    display: inline-block;
+    width: 420px;
+    margin-left: 149px;
+    margin-right: 29px;
+    margin-top: 133px;
+}
+
+.main-portal-alps {
+    display: inline-block;
+    width: 420px;
+    margin-left: 59px;
+    margin-right: 75px;
+    margin-top: 133px;
+}
+
+.button-box {
+    margin-top: 85px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.load-more-button {
+    padding-top: 22px;
+    padding-right: 35px;
+    padding-bottom: 22px;
+    padding-left: 35px;
+    font-family: "Playfair Display";
+    font-size: 20px;
+    line-height: 24px;
+    color: #626262;
+    border-style: solid;
+    background-color: #ffffff;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+
