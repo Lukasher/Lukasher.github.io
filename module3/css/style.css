@@ -23,7 +23,7 @@ body {
     text-align: center;
 }
 
-.navigation-link1:hover {
+.navigation-link:hover {
     color: #03a9f4;
     text-decoration: none;
 }
@@ -102,6 +102,7 @@ body {
     font-size: 20px;
     line-height: 24px;
     color: #626262;
+    border-color: #626262;
     border-style: solid;
     background-color: #ffffff;
     border-width: 1px;
