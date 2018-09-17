@@ -7,97 +7,97 @@ body {
     color: #626262;
 }
  
-.wrapper {
+.wrapper-content {
     display: block;
     box-sizing: border-box;
     margin: auto;
-    width: 1200px;
+    width: 960px;
 }
 
-.navbar-navigation {
-    padding-top: 77px;
-    margin-bottom: 104px;
+.navigation-menu {
+    padding-top: 74px;
+    margin-bottom: 100px;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 17px;
     text-transform: uppercase;
     text-align: center;
 }
 
-.navigation-link:hover {
+.menu-link:hover {
     color: #03a9f4;
     text-decoration: none;
 }
 
-.navigation-submenu {
+.menu {
     display: inline-block;
     margin-left: 60px;
     margin-right: 60px;
 }
 
-.navigation-link {
+.menu-link {
     color: #626262;
     text-decoration: none;
 }
 
-.main-portal-festival {
+.first-block {
     display: inline-block;
     width: 420px;
-    margin-left: 149px;
-    margin-right: 29px;
+    margin-left: 30px;
+    margin-right: 26px;
 }
 
-.article-subname {
-    margin-top: 31px;
-    margin-bottom: 28px;
+.block-name {
+    margin-top: 25px;
+    margin-bottom: 19px;
     font-family: "Ubuntu";
     text-transform: uppercase;
     color: #b4ad9e;
 }
 
-.article-title {
-    margin-bottom: 34px;
+.block-h2 {
+    margin-bottom: 30px;
     font-size: 30px;
     line-height: 36px;
 }
 
-.article-text {
+.block-text {
     line-height: 24px;
 }
 
-.main-portal-coffee {
+.second-block {
     display: inline-block;
     width: 420px;
-    margin-left: 59px;
-    margin-right: 75px;
+    margin-left: 30px;
+    margin-right: 26px;
 }
 
-.main-portal-dream {
+.third-block {
     display: inline-block;
     width: 420px;
-    margin-left: 149px;
-    margin-right: 29px;
+    margin-left: 30px;
+    margin-right: 26px;
     margin-top: 133px;
 }
 
-.main-portal-alps {
+.fourth-block {
     display: inline-block;
     width: 420px;
-    margin-left: 59px;
-    margin-right: 75px;
+    margin-left: 30px;
+    margin-right: 26px;
     margin-top: 133px;
 }
 
 .button-box {
-    margin-top: 85px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 71px;
     text-align: center;
 }
 
 .load-more-button {
-    padding-top: 22px;
-    padding-right: 35px;
-    padding-bottom: 22px;
-    padding-left: 35px;
+    padding-top: 17px;
+    padding-right: 32px;
+    padding-bottom: 17px;
+    padding-left: 32px;
     font-family: "Playfair Display";
     font-size: 20px;
     line-height: 24px;
