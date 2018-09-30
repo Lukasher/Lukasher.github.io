@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i&subset=cyrillic');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400&subset=cyrillic');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: "Playfair Display";
     font-size: 14px;
@@ -23,6 +28,10 @@ body {
     text-align: center;
 }
 
+.menu-item:nth-child(1n+4) {
+    margin-right: 0;
+}
+
 .menu-link:hover {
     color: #03a9f4;
     text-decoration: none;
@@ -40,11 +49,15 @@ body {
 }
 
 
-.first-block {
+.block {
     display: inline-block;
     width: 420px;
-    margin-left: 30px;
-    margin-right: 26px;
+    margin-right: 70px;
+    margin-bottom: 82px;
+}
+
+.block:nth-child(2n) {
+    margin-right: 0;
 }
 
 .secondary-title {
@@ -65,32 +78,8 @@ body {
     line-height: 24px;
 }
 
-.second-block {
-    display: inline-block;
-    width: 420px;
-    margin-left: 30px;
-    margin-right: 26px;
-}
-
-.third-block {
-    display: inline-block;
-    width: 420px;
-    margin-left: 30px;
-    margin-right: 26px;
-    margin-top: 133px;
-}
-
-.fourth-block {
-    display: inline-block;
-    width: 420px;
-    margin-left: 30px;
-    margin-right: 26px;
-    margin-top: 133px;
-}
-
 .button-box {
-    margin-top: 50px;
-    margin-bottom: 71px;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -105,6 +94,8 @@ body {
     background-color: #ffffff;
     border-width: 1px;
     cursor: pointer;
+    display: inline-block;
+    margin: 56px 0;
 }
 
 
