@@ -16,7 +16,7 @@ body {
     display: block;
     box-sizing: border-box;
     margin: auto;
-    width: 914px;
+    width: 910px;
 }
 
 .content-block {
@@ -57,6 +57,7 @@ body {
     width: 420px;
     margin-right: 70px;
     margin-bottom: 82px;
+    font-size: 14px;
 }
 
 .block:nth-child(2n) {
