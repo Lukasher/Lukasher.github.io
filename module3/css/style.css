@@ -16,7 +16,8 @@ body {
     display: block;
     box-sizing: border-box;
     margin: auto;
-    width: 960px;
+    width: 914px;
+    background-color: #03a9f4;
 }
 
 .menu {
@@ -39,7 +40,7 @@ body {
 
 .menu-item {
     display: inline-block;
-    margin-right: 60px;
+    margin-right: 110px;
 }
 
 .menu-link {
