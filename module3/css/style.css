@@ -17,7 +17,10 @@ body {
     box-sizing: border-box;
     margin: auto;
     width: 914px;
-    background-color: #03a9f4;
+}
+
+.content-block {
+    font-size: 0;
 }
 
 .menu {
