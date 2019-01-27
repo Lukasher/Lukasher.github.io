@@ -216,6 +216,21 @@
     border-radius: 3px;
 }
 
+.pay {
+    background: rgb(26, 188, 156);
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 3px;
+}
+
 .lates-news {
     margin: 0 auto;
     /* margin-top: 90px; */
