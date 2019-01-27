@@ -55,7 +55,15 @@
                     </div>
                     <div class="info clearfix">
                         <!-- <p class="text">blue tshirt</p> -->
-                        <h3 class="text">blue tshirt</h3>
+                        <button class="payment">blue tshirt</button>
+                        <form id="payment" name="payment" method="post" action="https://sci.interkassa.com/" enctype="utf-8">
+                            <input type="hidden" name="ik_co_id" value="5c3e5c5f3d1eafd96f8b456c" />
+                            <input type="hidden" name="ik_pm_no" value="335246644" />
+                            <input type="hidden" name="ik_am" value="100.00" />
+                            <input type="hidden" name="ik_cur" value="UAH" />
+                            <input type="hidden" name="ik_desc" value="Event Description" />
+                                <input type="submit" value="Pay">
+                        </form>
                         <p class="prise">$26</p>
                     </div>
                 </a>
@@ -155,15 +163,7 @@
                 <!-- <p class="title-text">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</p> -->
                 <h3 class="title-text">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet</h3>
                 <p class="main-text">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare </p>
-                <button class="pay">Pay now!</button>
-                <form id="payment" name="payment" method="post" action="https://sci.interkassa.com/" enctype="utf-8">
-                    <input type="hidden" name="ik_co_id" value="5c3e5c5f3d1eafd96f8b456c" />
-                    <input type="hidden" name="ik_pm_no" value="335246644" />
-                    <input type="hidden" name="ik_am" value="100.00" />
-                    <input type="hidden" name="ik_cur" value="UAH" />
-                    <input type="hidden" name="ik_desc" value="Event Description" />
-                        <input type="submit" value="Pay">
-                </form>
+                <button class="button">read more</button>
             </article>
             <article class="news-container">
                 <img class="image2" src="./img/slide.jpg" alt="img">
